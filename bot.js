@@ -24,7 +24,6 @@ function respond() {
     postMessage("https://i.groupme.com/480x374.gif.ff4b7c47fe184675a8418304fcd32e91");
     this.res.end();
   } 
-    } 
   else if(request.text && botRegexTwitter.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://twitter.com/GamblerSZN");
