@@ -7,7 +7,7 @@ function respond() {
   var request = JSON.parse(this.req.chunks[0]),
       botRegex = /^\/cool guy/; botRegexSalt = /^\/salt/;botRegexPay = /^\/payouts/;
       botRegexAd=/^\/advance/;botRegexMI = /^\/mike/; botDEZ = /^\/eat/; botDuck = /^\/duck/;
-      botRegexTw = /^\/twitch/i; botRegexYu = /^\/youtube/i; botRegexTrade = /^\/trades/; botRegexGuide = /^\/guidelines/;  botRegexSh = /^\/what/; botRegexCC = /^\/bleach/; botRegexSr = /^\/trash/; botRegexQu = /^\/stfu/; botRegexBack = /^\/comeback/;
+      botRegexTw = /^\/twitch/i; botRegexYu = /^\/youtube/i; botRegexTrade = /^\/trades/; botRegexGuide = /^\/guidelines/;  botRegexSh = /^\/voll/; botRegexCC = /^\/bleach/; botRegexSr = /^\/trash/; botRegexQu = /^\/stfu/; botRegexBack = /^\/comeback/;
       botRegexCryNeema=/^\/cry neema/; botRegexLuck = /^\/luck/; botRegexFumble = /^\/fumble/; botRegexL = /^\/L/;  botRegexCrying = /^\/cry/;  botRegexRuless = /^\/rules/; botRegexCommands = /^\/commands/; botRegexOffseason = /^\/offszn/; botRegexDL = /^\/gszn/; botRegexWeekOne = /^\/week1/;botRegexWeek2 = /^\/week 2/;botRegexWeek3 = /^\/week 3/;botRegexWeek4 = /^\/week 4/;botRegexWeek5 = /^\/week 5/;botRegexWeek6 = /^\/week 6/;botRegexWeek7 = /^\/week 7/;botRegexWeek8 = /^\/week 8/;botRegexWeek9 = /^\/week 9/;botRegexWeek10 = /^\/week 10/;botRegexWeek11 = /^\/week 11/;botRegexWeek12 = /^\/week 12/;botRegexWeek13 = /^\/week 13/;botRegexWeek14 = /^\/week 14/;botRegexWeek15 = /^\/week 15/;botRegexWeek16 = /^\/week 16/;botRegexWeek17 = /^\/week 17/; botRegexTwitter = /^\/twitter/; botRegexCheese = /^\/cheese/
       cheese1 = 'https://pbs.twimg.com/profile_images/494330891/cheese_oh_cheese_400x400.jpg'; cheese2 = 'https://media.giphy.com/media/3o6Mb93JnT2hfbvK92/giphy.gif'
       cheese3 = 'http://www.packerpalace.com/palace02/maddenwcheese.gif';
@@ -66,7 +66,7 @@ function respond() {
   } 
   else if(request.text && botRegexSh.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/195x229.gif.5d12ede6cdcc48dfbaad6fe71282d4a8");
+    postMessage("https://media-curse.cursecdn.com/attachments/188/497/f745af91a24e968d010f926f58dcdb12.png");
     this.res.end();
   } 
    else if(request.text && botDEZ.test(request.text)) {
