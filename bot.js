@@ -58,7 +58,7 @@ function respond() {
     this.res.writeHead(200);
     postMessage("https://i.groupme.com/715x741.png.824f085332c94560bdb69c4c94048178");
     this.res.end();
-  } 
+  }
   else if(request.text && botRegexGuide.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://i.groupme.com/562x724.png.1274436c6dd3438ab81700268e80081e");
